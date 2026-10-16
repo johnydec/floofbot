@@ -9,282 +9,282 @@
   "plugins": [
     {
       "name": "fluffbot-clay-blob",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A clay blob fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-clay-blob.zip",
-        "sha256": "d9f7f7a29a7b473a3f02531caf5404a97f5d973c8877b020d6e1bf3625b866f0"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-clay-blob.zip",
+        "sha256": "ff1689e86af9890002fc500d1bf7ab0a4f42b1c37d272a87ca5c610a974b34b9"
       }
     },
     {
       "name": "fluffbot-clay-classic",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A clay classic fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-clay-classic.zip",
-        "sha256": "e64edbd2f29c854e159d5d16e81362bbd52e235810661ca72d8b9122f1089b0f"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-clay-classic.zip",
+        "sha256": "d3cbce2fb42d8009426e3818b02026ec61538a5a9551244d03555e825c050f9e"
       }
     },
     {
       "name": "fluffbot-clay-round",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A clay round fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-clay-round.zip",
-        "sha256": "7b2f5459c8d0ccdda7dfa0f6d7cb4b97dc35cd0d245678c67536aa49d4c7b8f5"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-clay-round.zip",
+        "sha256": "f0b6213e3cf737b1c8184e4b2a510519268ba8d5f11fbcec7ef855198ccffe3f"
       }
     },
     {
       "name": "fluffbot-clay-tall",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A clay tall fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-clay-tall.zip",
-        "sha256": "f3beaf897ed22cdb095c83004d16aa6f4832736fd47165a1d9837e036836762f"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-clay-tall.zip",
+        "sha256": "f71331aecbeb7dfc294e2607d10c2bd89007b3f220cc6d81dbc177e327d2b597"
       }
     },
     {
       "name": "fluffbot-cream-blob",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A cream blob fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-cream-blob.zip",
-        "sha256": "ab460f1cf1cab3d41f6508937213df8407732b9b59ea294180a75c7cf52e2309"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-cream-blob.zip",
+        "sha256": "608c028a6aaea34f2c8ed918995c5b3abd782166f7679f72d535918c74abdb47"
       }
     },
     {
       "name": "fluffbot-cream-classic",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A cream classic fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-cream-classic.zip",
-        "sha256": "a24418774100e21f2a60df9373bd76f27de214107b0f56e7914e30e1c1a72ad2"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-cream-classic.zip",
+        "sha256": "b0ccab45aeae2b466c84a161f041214de4e6be2063c4b6cb4c82b3a3371bf261"
       }
     },
     {
       "name": "fluffbot-cream-round",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A cream round fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-cream-round.zip",
-        "sha256": "8c990f193409f4654329af5515bf7da7488f344cfcbba44fc38f0170c26c551e"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-cream-round.zip",
+        "sha256": "cdf362c3782495ba2e06941e04710fb0e822fc84f1cfec31e8639c64372b8166"
       }
     },
     {
       "name": "fluffbot-cream-tall",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A cream tall fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-cream-tall.zip",
-        "sha256": "fdc65655e5330d6a69a1472ae7cf85a2fdca68510729453455e41d16a2d29b27"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-cream-tall.zip",
+        "sha256": "db8d03e6e550993ea46d5ae4d2cad8db27b79ad83f0c0ec2e536b651275b2d19"
       }
     },
     {
       "name": "fluffbot-graphite-blob",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A graphite blob fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-graphite-blob.zip",
-        "sha256": "b2092805127547cfc1721bfa644bf7346bfee4a50899dfba2041c4fa71a4cd3d"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-graphite-blob.zip",
+        "sha256": "550fec932ddd9dcc3046692508e63755645a37022f9fbe0d72181adff0051dce"
       }
     },
     {
       "name": "fluffbot-graphite-classic",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A graphite classic fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-graphite-classic.zip",
-        "sha256": "41b6d5ab31b514c52a6e9de0e6fc30050719656baa07e1c0c9c5ba16f92756a2"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-graphite-classic.zip",
+        "sha256": "98a057234e94238069057c9ead9e5dacdd4a902f43916631fe6f7a9c4c276083"
       }
     },
     {
       "name": "fluffbot-graphite-round",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A graphite round fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-graphite-round.zip",
-        "sha256": "e6c5eedf03ce2dc0935633dbcd75172950ddeebeadfc9b206c4ee97b01f29217"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-graphite-round.zip",
+        "sha256": "2871be0c1367490bbafd7e5560761f8498cc7a896988fb0913da4bd9e683ec82"
       }
     },
     {
       "name": "fluffbot-graphite-tall",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A graphite tall fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-graphite-tall.zip",
-        "sha256": "acc705074c282b61b3f5b278d0a3d55d4355667ba0e187284c1b71f1d9047ab7"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-graphite-tall.zip",
+        "sha256": "c2bcff60ad3f9e5b6b5e29b5e88a64046369b366cca27d1f0da9fbd853de5bd0"
       }
     },
     {
       "name": "fluffbot-lilac-blob",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A lilac blob fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-lilac-blob.zip",
-        "sha256": "92fdee69f51c08779b4c7e14162f6f122b54f108faa21ed51a1043250eb22046"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-lilac-blob.zip",
+        "sha256": "c20e2f507efcf0e54978a62dbd91e3a041b2a22dbe61d9acf02d7d2af3956b1c"
       }
     },
     {
       "name": "fluffbot-lilac-classic",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A lilac classic fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-lilac-classic.zip",
-        "sha256": "ef46bd15383545285362f32b635d3be0fba2e0e022c4a9dbe0717f0e93962250"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-lilac-classic.zip",
+        "sha256": "fd06dfb7556e8f895d546c74decbdcd4647c86ffe09a9a159666058a242b9141"
       }
     },
     {
       "name": "fluffbot-lilac-round",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A lilac round fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-lilac-round.zip",
-        "sha256": "ca15edadfcfe0bd708bef751c150fc7c53352e03f579cfa0e32cea0c7dfcb841"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-lilac-round.zip",
+        "sha256": "4729f42e8d6220851a81b636737948d967c07aff4e069a141bb30fede83bc1fa"
       }
     },
     {
       "name": "fluffbot-lilac-tall",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A lilac tall fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-lilac-tall.zip",
-        "sha256": "282b6250dbd4cc6d47760f600530766444480d5ff0d9c32bc2f51e5441987b3c"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-lilac-tall.zip",
+        "sha256": "d6279d2a3409179e014c2715eeeeb760c19b1253cf8f5e8125a93f0aaaa5c2f7"
       }
     },
     {
       "name": "fluffbot-mint-blob",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A mint blob fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-mint-blob.zip",
-        "sha256": "608018e0835434045a7eab7cee6e25a3c53a30fe8878c7c2e480fa147557b3be"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-mint-blob.zip",
+        "sha256": "b0ff2f37ed7e10212d11e442e644ab4046d58ca0796fd8b2bc51c302769993ca"
       }
     },
     {
       "name": "fluffbot-mint-classic",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A mint classic fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-mint-classic.zip",
-        "sha256": "f593703701c000d517fd054c28f83cd2a9c6ebf2fa36a4dd9545c2f41d789b87"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-mint-classic.zip",
+        "sha256": "124f1ede7a508b5400313ee447010f1f69a480a6de8f7c4b5d3d2c0b46606682"
       }
     },
     {
       "name": "fluffbot-mint-round",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A mint round fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-mint-round.zip",
-        "sha256": "97dad577b691b8039652e33d113ccfb7a478e25c232d66fb0b4a0611ef1e6918"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-mint-round.zip",
+        "sha256": "5701249fd2207d4c8286e443988979f5e6b1f3ee706bb73e091909c81ca9fe37"
       }
     },
     {
       "name": "fluffbot-mint-tall",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A mint tall fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-mint-tall.zip",
-        "sha256": "71b76829f84f5a7babb760a1ccfe673ea61f0ef2c240d81d51d755ab4c331a4c"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-mint-tall.zip",
+        "sha256": "12afb5f46cfd3b38753a2a3ff9c76eba5ff3bfaf3e8e4797b2d05a44e0c66b35"
       }
     },
     {
       "name": "fluffbot-rose-blob",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A rose blob fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-rose-blob.zip",
-        "sha256": "9689b29f5c27fdd10fae3a851e0f6d6fc9ccc3efb1efd92f7b693de7f0c0cbb2"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-rose-blob.zip",
+        "sha256": "af5a596db9b9dda174d6b7e6c1fae369c51bcc0654cc1631b60934ca77ef47a9"
       }
     },
     {
       "name": "fluffbot-rose-classic",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A rose classic fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-rose-classic.zip",
-        "sha256": "ca8e835c1bbed1a72c6bb0931cf3de1a3ffec69fb5eaec2ef2884b118cc13faa"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-rose-classic.zip",
+        "sha256": "46550993adba6ce9f7716c712e4c215a17decc7ea46aa4905dd48a7a013b3562"
       }
     },
     {
       "name": "fluffbot-rose-round",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A rose round fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-rose-round.zip",
-        "sha256": "9aaedc114bb23117c9abcc9df0d2958283681a0dd168e3d30440f6baa108e96b"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-rose-round.zip",
+        "sha256": "9918c34e900bb01c83f359ee6de66722283415def94317386bc44494f0c1ce91"
       }
     },
     {
       "name": "fluffbot-rose-tall",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A rose tall fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-rose-tall.zip",
-        "sha256": "a4b2363d7e0927e0aa2e8d5578a0db46449ad4bda06456f0d8473c8c339205d5"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-rose-tall.zip",
+        "sha256": "3484a74fa21a21f9ed13d384901e5ef591d643c71f0d0470d10390e9c51469d5"
       }
     },
     {
       "name": "fluffbot-sky-blob",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A sky blob fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-sky-blob.zip",
-        "sha256": "a7fa0566c7db86206df7b50aabe8d6cef9b4b71fba76d2e3ecb95ae374064cb5"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-sky-blob.zip",
+        "sha256": "fa18e3508ed85d9c55d6986ecc90ccb1ff0e3cbf6eb46f1c8d4c4224fc0ca6fa"
       }
     },
     {
       "name": "fluffbot-sky-classic",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A sky classic fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-sky-classic.zip",
-        "sha256": "44fd67304bd38709139c741802de97f0eff189e51e13cbd7f93b0d1f35001cad"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-sky-classic.zip",
+        "sha256": "5cde8ec38a480678e60d760ee83dbb2457c230e5d75ee75d8a25460a3525ac56"
       }
     },
     {
       "name": "fluffbot-sky-round",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A sky round fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-sky-round.zip",
-        "sha256": "cd6673281396d3f691dd758ccc496200846458d629fe5dd8676998837436b422"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-sky-round.zip",
+        "sha256": "6b9a647251f4935144060e1e4f9c665f9b133f85edb6a3103d3ed9855251f57b"
       }
     },
     {
       "name": "fluffbot-sky-tall",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "A sky tall fluffbot above your prompt that acts out what Claude is doing.",
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-sky-tall.zip",
-        "sha256": "7314f75d247d85c0616f124376c0d953ec58e2b6706389b34ad990cdd5698e54"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-sky-tall.zip",
+        "sha256": "b73f9db885d78db217c580a7ecc821e6db6e2607494a04b2cd02f7a0a568661a"
       }
     }
   ]
