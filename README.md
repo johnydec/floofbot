@@ -17,6 +17,9 @@ It thinks when Claude thinks, types when Claude writes, runs when tools run — 
 /plugin install fluffbot-clay-classic --marketplace johnydec/fluffbots
 ```
 
+Claude Code then asks where to install it — pick **Install for you (user scope)** and press Enter.<br>
+<sub>(<i>Project scope</i> would add the bot to the repository for everyone who works on it.)</sub>
+
 <sub>~9 MB · needs a terminal with Kitty graphics: <b>cmux</b>, <b>Ghostty</b>, <b>kitty</b> or <b>WezTerm</b> · built on Claude Code’s early-access plugin hooks, tested on 2.1.301</sub>
 
 </div>
@@ -78,7 +81,7 @@ Switching later? Just install the new one: the newest preset draws, and the one 
 
 A plugin runs inside your coding agent, so this one is built to be the most boring code you install.
 
-- **Pinned downloads** — each preset is a zip on the [`packs-v0.1.1` release](https://github.com/johnydec/fluffbots/releases/tag/packs-v0.1.1), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
+- **Pinned downloads** — each preset is a zip on the [`packs-v0.1.2` release](https://github.com/johnydec/fluffbots/releases/tag/packs-v0.1.2), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
 - **Watches, never touches** — every hook passes the event on unchanged. It can’t block, rewrite or approve anything.
 - **No network, no processes** — it reads its own frames and draws a picture above the prompt. Its one write is `fluffbots-peers.json` in your Claude Code config folder, a few lines that let two installed presets agree which one draws.
 - **Tiny surface** — the only engine APIs it uses are `$.fs.read` (its own `frames.json` and the peers file), `$.fs.write` (the peers file), `$.store` (when it was installed), `$.session.id`, `$.clock`, `$.ui` and `$.state`.
@@ -86,7 +89,7 @@ A plugin runs inside your coding agent, so this one is built to be the most bori
 Check a preset yourself:
 
 ```sh
-curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.1/fluffbot-clay-classic.zip | shasum -a 256
+curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-clay-classic.zip | shasum -a 256
 ```
 
 ## FAQ
