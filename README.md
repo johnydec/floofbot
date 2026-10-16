@@ -94,8 +94,12 @@ curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fl
 
 ## FAQ
 
-<details><summary><b>Which terminals does it work in?</b></summary><br>
-Any terminal with the Kitty graphics protocol: cmux, Ghostty, kitty, WezTerm. Elsewhere the spot above the prompt simply stays empty.
+<details><summary><b>Where does it work?</b></summary><br>
+In Claude Code in a terminal that can draw pictures (the Kitty graphics protocol): cmux, Ghostty, kitty and WezTerm. Terminal.app, iTerm2, VS Code’s built-in terminal, the Claude desktop app and the VS Code extension can’t show it — nothing breaks there, you just won’t see the bot.
+</details>
+
+<details><summary><b>I installed it but don’t see the bot</b></summary><br>
+Check that your terminal is one of the four above, that Claude Code is up to date (<code>claude update</code> — the bot is built on its new plugin hooks, tested on 2.1.301), and that the window leaves 5 free rows above the prompt.
 </details>
 
 <details><summary><b>Does it slow Claude Code down?</b></summary><br>
