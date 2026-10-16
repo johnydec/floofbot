@@ -81,15 +81,15 @@ Switching later? Just install the new one: the newest preset draws, and the one 
 
 A plugin runs inside your coding agent, so this one is built to be the most boring code you install.
 
-- **Pinned downloads** — each preset is a zip on the [`packs-v0.1.2` release](https://github.com/johnydec/fluffbots/releases/tag/packs-v0.1.2), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
+- **Pinned downloads** — each preset is a zip on the [`packs-v0.1.3` release](https://github.com/johnydec/fluffbots/releases/tag/packs-v0.1.3), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
 - **Watches, never touches** — every hook passes the event on unchanged. It can’t block, rewrite or approve anything.
-- **No network, no processes** — it reads its own frames and draws a picture above the prompt. Its one write is `fluffbots-peers.json` in your Claude Code config folder, a few lines that let two installed presets agree which one draws.
-- **Tiny surface** — the only engine APIs it uses are `$.fs.read` (its own `frames.json` and the peers file), `$.fs.write` (the peers file), `$.store` (when it was installed), `$.session.id`, `$.clock`, `$.ui` and `$.state`.
+- **No network, no processes** — it reads its own frames and draws a picture above the prompt. Its only write is one tiny file per preset in `~/.claude/fluffbots/`, touched when a session starts, when you send a prompt and when a turn ends — never on a timer — so two installed presets can agree which one draws.
+- **Tiny surface** — the only engine APIs it uses are `$.fs.read` / `$.fs.list` (its own frames and the presets’ files), `$.fs.write` (its own file), `$.env` (to find `~/.claude`), `$.store` (when it was installed), `$.session.id`, `$.clock`, `$.ui` and `$.state`.
 
 Check a preset yourself:
 
 ```sh
-curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.2/fluffbot-clay-classic.zip | shasum -a 256
+curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.3/fluffbot-clay-classic.zip | shasum -a 256
 ```
 
 ## FAQ
@@ -99,7 +99,7 @@ Any terminal with the Kitty graphics protocol: cmux, Ghostty, kitty, WezTerm. El
 </details>
 
 <details><summary><b>Does it slow Claude Code down?</b></summary><br>
-No. Frames are pre-rendered PNGs (176 px, 256 colours) that the terminal reads straight from disk at ~30 fps.
+No. Frames are pre-rendered PNGs (176 px, 256 colours) that the terminal reads straight from disk, at ~30 fps only while Claude is working. At rest the bot plays its loop once and then holds still, so an idle window costs next to nothing. Claude’s own work never waits on the bot, and it uses no tokens.
 </details>
 
 <details><summary><b>Why no “waiting” at work?</b></summary><br>
