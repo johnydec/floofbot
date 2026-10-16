@@ -78,6 +78,23 @@ Swap `floofbot-clay-blob` for any of the 28 presets:
 
 Switching later? Just install the new one: the newest preset draws, and the one you had steps back and tells you how to remove it (`/plugin uninstall <old one>`).
 
+## Stay up to date
+
+Claude Code turns auto-update off by default for marketplaces outside Anthropic's own, so turn it on once:
+
+1. Run `/plugin` and go to the **Marketplaces** tab.
+2. Select **floofbot**, then **Enable auto-update**.
+
+From then on, Claude Code picks up new floofbot versions on its own after a session starts. Run `/reload-plugins` to switch the running session over, or just start a new one.
+
+Prefer updating by hand?
+
+```
+/plugin marketplace update floofbot
+```
+
+or, from your shell: `claude plugin update floofbot-clay-blob@floofbot` (your preset's name).
+
 ## Cute outside, safe inside
 
 A plugin runs inside your coding agent, so this one is built to be the most boring code you install.
@@ -109,6 +126,10 @@ No. Frames are pre-rendered PNGs (176 px, 256 colours) that the terminal reads s
 
 <details><summary><b>Why no “waiting” at work?</b></summary><br>
 Where an organization manages Claude Code, permission-dialog events only reach plugins the organization lists. Everything else still works.
+</details>
+
+<details><summary><b>I don’t get updates</b></summary><br>
+Auto-update is off until you turn it on (see <a href="#stay-up-to-date">Stay up to date</a>). Without it, run <code>/plugin marketplace update floofbot</code>. An update shows up in the running session only after <code>/reload-plugins</code> or in a new session.
 </details>
 
 <details><summary><b>How do I remove it?</b></summary><br>
