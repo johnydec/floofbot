@@ -24,7 +24,7 @@
       "source": {
         "source": "archive",
         "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.1/fluffbot-clay-classic.zip",
-        "sha256": "bcb008139b64f85b586406ab9e54cd6d6d22631f7f7bf04a88f5cfa3e2bf94ba"
+        "sha256": "4f5759ed7c75e8acc47db6e0d34c15b11481db69c4e0644bf7f381c5a5c57833"
       }
     },
     {
@@ -184,7 +184,7 @@
       "source": {
         "source": "archive",
         "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.1/fluffbot-mint-classic.zip",
-        "sha256": "7a8a1a4baabfb427d516a057126234e417e42e6e26992e2490a01a521ea85d92"
+        "sha256": "7b0f4b7bdf4aabd6301396aeeea89b591420108e73f9b2fbfd8a78e053554861"
       }
     },
     {
@@ -264,7 +264,7 @@
       "source": {
         "source": "archive",
         "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.1/fluffbot-sky-classic.zip",
-        "sha256": "e92d51de5b6f4044441535dcd0145959be027d0dfb36a5c074b727f1dc58c932"
+        "sha256": "29de594092865b182fc72b272500986122662d639c2d095d326d0f6d892ae1dd"
       }
     },
     {
