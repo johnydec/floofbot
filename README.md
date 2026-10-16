@@ -82,7 +82,7 @@ Switching later? Just install the new one: the newest preset draws, and the one 
 
 A plugin runs inside your coding agent, so this one is built to be the most boring code you install.
 
-- **Pinned downloads** — each preset is a zip on the [`packs-v0.1.4` release](https://github.com/johnydec/fluffbots/releases/tag/packs-v0.1.4), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
+- **Pinned downloads** — each preset is a zip on the [`packs-v0.1.5` release](https://github.com/johnydec/fluffbots/releases/tag/packs-v0.1.5), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
 - **Watches, never touches** — every hook passes the event on unchanged. It can’t block, rewrite or approve anything.
 - **No network, no processes** — it reads its own frames and draws a picture above the prompt. Its only write is one tiny file per preset in `~/.claude/fluffbots/`, touched when a session starts, when you send a prompt and when a turn ends — never on a timer — so two installed presets can agree which one draws.
 - **Tiny surface** — the only engine APIs it uses are `$.fs.read` / `$.fs.list` (its own frames and the presets’ files), `$.fs.write` (its own file), `$.env` (to find `~/.claude`), `$.store` (when it was installed), `$.session.id`, `$.clock`, `$.ui` and `$.state`.
@@ -90,7 +90,7 @@ A plugin runs inside your coding agent, so this one is built to be the most bori
 Check a preset yourself:
 
 ```sh
-curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-clay-blob.zip | shasum -a 256
+curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-clay-blob.zip | shasum -a 256
 ```
 
 ## FAQ
@@ -117,4 +117,4 @@ Where an organization manages Claude Code, permission-dialog events only reach p
 
 <br>
 
-<div align="center"><sub>Unofficial fan project — not affiliated with Anthropic.</sub></div>
+<div align="center"><sub><a href="LICENSE">MIT licensed</a> · Unofficial fan project — not affiliated with Anthropic.</sub></div>
