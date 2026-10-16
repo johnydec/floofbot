@@ -9,282 +9,646 @@
   "plugins": [
     {
       "name": "fluffbot-clay-blob",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A clay blob floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "clay",
+        "blob"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-clay-blob.zip",
-        "sha256": "a649b5806fd45ec1ba3efd935e4d1e8b256bccc857aa4903370a72446d9fccd9"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-clay-blob.zip",
+        "sha256": "300249b4b9c1950f156d2f91fe1405116e6995c1b32eb986638955ae72d8b14a"
       }
     },
     {
       "name": "fluffbot-clay-classic",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A clay classic floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "clay",
+        "classic"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-clay-classic.zip",
-        "sha256": "bc094d679998d38dc19d72fae5e487e97eb8a806c62a6d18a8937c733cc79d82"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-clay-classic.zip",
+        "sha256": "5a301b491a3a73b5e84082b34e7ba1d8d28eacc7d46ce5fcc16c457c1d766ea5"
       }
     },
     {
       "name": "fluffbot-clay-round",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A clay round floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "clay",
+        "round"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-clay-round.zip",
-        "sha256": "a5a09e1e2a759e941b758b80e63ac51be5544b8d8a97a97598c9f600c54aa3f3"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-clay-round.zip",
+        "sha256": "ec3d1e5c5863ddea70d060407060137a54591337a8f475a37175c7867534d8c8"
       }
     },
     {
       "name": "fluffbot-clay-tall",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A clay tall floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "clay",
+        "tall"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-clay-tall.zip",
-        "sha256": "c34a2b3f8a1fabb57b8b89f489f7fb333319441e29f63fd9d2cc978510b12a6f"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-clay-tall.zip",
+        "sha256": "28ba9b7046988bb85ac6494c01f77ec43fbcb0fd836c569ab3c187b40f116756"
       }
     },
     {
       "name": "fluffbot-cream-blob",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A cream blob floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "cream",
+        "blob"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-cream-blob.zip",
-        "sha256": "b93e5d6907f64e348679b89ea3fbb7222fc24625ee19b29b3a6917fff410dcc3"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-cream-blob.zip",
+        "sha256": "3fc0ce224ee5b6f2425dcfcb0c37905ac70baad6a11ae773758fda5e2b957f5f"
       }
     },
     {
       "name": "fluffbot-cream-classic",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A cream classic floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "cream",
+        "classic"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-cream-classic.zip",
-        "sha256": "2fc80e2243f91dcdc21ad6277f5f51d62fb4a13571e6128e02c96caba7c5a8cf"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-cream-classic.zip",
+        "sha256": "ebf2f45ea75736d2410d45170148a2e3d87995879796628fa81f2b2f1d1e3686"
       }
     },
     {
       "name": "fluffbot-cream-round",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A cream round floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "cream",
+        "round"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-cream-round.zip",
-        "sha256": "1085188cfd34b22c9edd1ad8c42c0d1d5d877887ed32357a3d30c8668f51c4c7"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-cream-round.zip",
+        "sha256": "b77a435a107aa7dd8b37994c33772b580795f8e2f332d96149493863e711e882"
       }
     },
     {
       "name": "fluffbot-cream-tall",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A cream tall floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "cream",
+        "tall"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-cream-tall.zip",
-        "sha256": "eafad6a3a2780cf9c209ac4f64d267723c43bdbf57f2dce5fef2a094b9ec2bdf"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-cream-tall.zip",
+        "sha256": "86de5afd1c0fed5531f0aedddaddd46c49d75ee5b7243e359101e635a169cc15"
       }
     },
     {
       "name": "fluffbot-graphite-blob",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A graphite blob floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "graphite",
+        "blob"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-graphite-blob.zip",
-        "sha256": "521f356bdbcd79ffb5625c716cb7a2c58d3d4028157002445123d847a1eef140"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-graphite-blob.zip",
+        "sha256": "b6af70aef9bf64fc79357909892e2e4e476a9d261a65f2b8869ff799a349811d"
       }
     },
     {
       "name": "fluffbot-graphite-classic",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A graphite classic floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "graphite",
+        "classic"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-graphite-classic.zip",
-        "sha256": "b64244e568e310fc6b66f4ea97e66c25ec20a9515d61bedf8c9298ee69a06732"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-graphite-classic.zip",
+        "sha256": "e27d80ded3329940677d1e42e46028d9a8d2dcf421023ee1e45c15730a849016"
       }
     },
     {
       "name": "fluffbot-graphite-round",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A graphite round floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "graphite",
+        "round"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-graphite-round.zip",
-        "sha256": "323176e7d7a3777385cdfc2d503fcd72f9417d60a008716307eb018b8a985c2c"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-graphite-round.zip",
+        "sha256": "81b3e0e98e1c0724a03d399f687c621bf285f431570e1ef069412e42e00b0d7b"
       }
     },
     {
       "name": "fluffbot-graphite-tall",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A graphite tall floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "graphite",
+        "tall"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-graphite-tall.zip",
-        "sha256": "734531708cd4c7d3b498b5f40b363c4e870c7f6b5bddb1a5e16ae1157d8a6bc3"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-graphite-tall.zip",
+        "sha256": "808538dec719c84c7875bef4daffe146ed9640f36329c06957adde392f3d2774"
       }
     },
     {
       "name": "fluffbot-lilac-blob",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A lilac blob floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "lilac",
+        "blob"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-lilac-blob.zip",
-        "sha256": "cc604cc547227bf7246b8843efa944fd4c1d5d8e85935ac652dfc921e8d514e4"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-lilac-blob.zip",
+        "sha256": "6e0ac29270358d4bd3e1cee1566ed7be08547561937484611c453b4cc31fa6af"
       }
     },
     {
       "name": "fluffbot-lilac-classic",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A lilac classic floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "lilac",
+        "classic"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-lilac-classic.zip",
-        "sha256": "f0ac3364652613d5eaae7458d00315d8f479c0e1530f3b882d7804965b92795c"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-lilac-classic.zip",
+        "sha256": "18a90ce0f124272b6fa7e3db52c1e956307c760b017b527ae724639c175c6ed1"
       }
     },
     {
       "name": "fluffbot-lilac-round",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A lilac round floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "lilac",
+        "round"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-lilac-round.zip",
-        "sha256": "e64ce9507cdface56506fe4893bb8b4399b97a590d9fb030e15c37c22895fca2"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-lilac-round.zip",
+        "sha256": "1b37ecec0836e93fde4b20cc804d73018017eaba6a56990d8de46b60bbb41e4b"
       }
     },
     {
       "name": "fluffbot-lilac-tall",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A lilac tall floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "lilac",
+        "tall"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-lilac-tall.zip",
-        "sha256": "3c7bc853f300acb9ba1f19a5c571b8a5e44a855685cdadf0bfc34c42bc6bc6e8"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-lilac-tall.zip",
+        "sha256": "df516eea22ebc5defa7cd42e8183819418dfa591d8339deac262e556852ccb54"
       }
     },
     {
       "name": "fluffbot-mint-blob",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A mint blob floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "mint",
+        "blob"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-mint-blob.zip",
-        "sha256": "e161f4db645867947f2b87ac06de3cb60e81c671e2745c9f318d5022328f5da5"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-mint-blob.zip",
+        "sha256": "f179b84dd144fa5363d1401b1e821020b8fb504a573790b0300a31f9a3d29930"
       }
     },
     {
       "name": "fluffbot-mint-classic",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A mint classic floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "mint",
+        "classic"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-mint-classic.zip",
-        "sha256": "e94dcffb4285b832fa9786dbb407bce87796169058d50996abc820407470c65c"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-mint-classic.zip",
+        "sha256": "85cb72fedd62cbf8484829e5b8cc3e68d80dc9b3a6191fac98a541f9de6b2fa6"
       }
     },
     {
       "name": "fluffbot-mint-round",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A mint round floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "mint",
+        "round"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-mint-round.zip",
-        "sha256": "8077eb498e3feab582a64596d117ca55ff60d3c09cca4264b1c1676fcf5826e5"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-mint-round.zip",
+        "sha256": "9b2e2bd263eaa7d3ec4c95a88887f5487f0fe7d7435017a73bc26eaa21edd619"
       }
     },
     {
       "name": "fluffbot-mint-tall",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A mint tall floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "mint",
+        "tall"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-mint-tall.zip",
-        "sha256": "dcec1ef261c3b766af17f846f62f8299a7c5180c1bb23f98c5cad023102a3d23"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-mint-tall.zip",
+        "sha256": "aaca210d83edcaab9726dfe1cb7909823dc3f66f0137edbd19644b984c0e007b"
       }
     },
     {
       "name": "fluffbot-rose-blob",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A rose blob floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "rose",
+        "blob"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-rose-blob.zip",
-        "sha256": "43178bcd1445a8300f34c3c4ae1ec20b815b6d0daa5c3c10eafe937126108aec"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-rose-blob.zip",
+        "sha256": "5859cff9a23d1258ed83dc0f7c828f0afb58bcb7033a8080da8c5a05115326fe"
       }
     },
     {
       "name": "fluffbot-rose-classic",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A rose classic floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "rose",
+        "classic"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-rose-classic.zip",
-        "sha256": "db5d299f13ce264ca5fb9424f502aacf77ff99134ec429b673e665da9c9ea9a2"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-rose-classic.zip",
+        "sha256": "377808a51e53ac37be5a2bc7ab4e6e35a38c37398769e635136db37adef5b77c"
       }
     },
     {
       "name": "fluffbot-rose-round",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A rose round floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "rose",
+        "round"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-rose-round.zip",
-        "sha256": "28a5c6392eb592c502ba4381c845de97cc69cc49060496a807ce717b25845879"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-rose-round.zip",
+        "sha256": "632b9ee25d50427e42190feaae0435acd17e0710cd2194e3f0b151e42a920bf9"
       }
     },
     {
       "name": "fluffbot-rose-tall",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A rose tall floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "rose",
+        "tall"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-rose-tall.zip",
-        "sha256": "db1c9264fcd9dd909ceec8ae34286ec9829a2eb0133c075d3949822d067429ab"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-rose-tall.zip",
+        "sha256": "f9c1803da3fc183c21ee1de0bacc46127c2c6d8b0795f789541f831946306e81"
       }
     },
     {
       "name": "fluffbot-sky-blob",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A sky blob floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "sky",
+        "blob"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-sky-blob.zip",
-        "sha256": "5ecc90326bc6a6824f7f1bccf8fe199048f5565285701a5d9cc2abcddef0c2a6"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-sky-blob.zip",
+        "sha256": "afc0c15a827d2e5beb35aa5586242c2b5dab77d61f19f0cb51246f2f7ea6bc4b"
       }
     },
     {
       "name": "fluffbot-sky-classic",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A sky classic floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "sky",
+        "classic"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-sky-classic.zip",
-        "sha256": "bd986e0cb944cf07156a90e2ec7981de32a00e71f7fdde54f43b848f21286ad1"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-sky-classic.zip",
+        "sha256": "9cccc2473e8ab7181935720a4bca56e0230ad2036843b68bb593bb551d3d260a"
       }
     },
     {
       "name": "fluffbot-sky-round",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A sky round floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "sky",
+        "round"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-sky-round.zip",
-        "sha256": "cd4bfc88b3e1b2c3fb0a736d4baf3ff73f4f03f9ee23ec06094059b9e4932798"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-sky-round.zip",
+        "sha256": "f36983c9a382119a1fcec55f8c7845f2d21822cb420f324b453e11c876b29d44"
       }
     },
     {
       "name": "fluffbot-sky-tall",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "A sky tall floofbot above your prompt that acts out what Claude is doing.",
+      "author": {
+        "name": "johnydec"
+      },
+      "homepage": "https://floofbot.vercel.app",
+      "repository": "https://github.com/johnydec/fluffbots",
+      "license": "MIT",
+      "keywords": [
+        "mascot",
+        "companion",
+        "animation",
+        "sky",
+        "tall"
+      ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.4/fluffbot-sky-tall.zip",
-        "sha256": "733af604ba2d65107d9f60736798dc0a7b91ec7505e1996f1482c68e219225da"
+        "url": "https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-sky-tall.zip",
+        "sha256": "8dc9ce1399f0d7c240c5e1f42401742927ffd0d4fd1e112f962bb5cdc4d047d2"
       }
     }
   ]
