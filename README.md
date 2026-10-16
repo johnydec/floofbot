@@ -1,51 +1,112 @@
+<div align="center">
+
 # fluffbots
 
-Plush, animated companions that sit above the Claude Code prompt in cmux, Ghostty, kitty and WezTerm.
+**A plush little companion that lives above your Claude Code prompt.**<br>
+It thinks when Claude thinks, types when Claude writes, runs when tools run — and cheers when the tests go green.
 
-## Install
+<br>
 
-At the Claude Code prompt (pick any body + colour below):
+<img src="assets/hero.gif" alt="A fluffbot reacting to a Claude Code session in cmux" width="820">
+
+<br><br>
+
+### Install — one line, inside Claude Code
 
 ```
 /plugin install fluffbot-clay-classic --marketplace johnydec/fluffbots
 ```
 
-From a shell: `claude plugin install fluffbot-clay-classic --marketplace johnydec/fluffbots`
+<sub>Live right away, no restart · ~8 MB · works in <b>cmux</b>, <b>Ghostty</b>, <b>kitty</b> and <b>WezTerm</b></sub>
 
-## Presets
+</div>
 
-- `fluffbot-clay-blob`
-- `fluffbot-clay-classic`
-- `fluffbot-clay-round`
-- `fluffbot-clay-tall`
-- `fluffbot-cream-blob`
-- `fluffbot-cream-classic`
-- `fluffbot-cream-round`
-- `fluffbot-cream-tall`
-- `fluffbot-graphite-blob`
-- `fluffbot-graphite-classic`
-- `fluffbot-graphite-round`
-- `fluffbot-graphite-tall`
-- `fluffbot-lilac-blob`
-- `fluffbot-lilac-classic`
-- `fluffbot-lilac-round`
-- `fluffbot-lilac-tall`
-- `fluffbot-mint-blob`
-- `fluffbot-mint-classic`
-- `fluffbot-mint-round`
-- `fluffbot-mint-tall`
-- `fluffbot-rose-blob`
-- `fluffbot-rose-classic`
-- `fluffbot-rose-round`
-- `fluffbot-rose-tall`
-- `fluffbot-sky-blob`
-- `fluffbot-sky-classic`
-- `fluffbot-sky-round`
-- `fluffbot-sky-tall`
+<br>
 
-## Security
+## Eight moods, driven by what Claude is doing
 
-Every preset is a zip attached to the `packs-v0.1.0` release and pinned by SHA-256 in
-`.claude-plugin/marketplace.json`; Claude Code verifies it on every download and refuses a mismatch.
-The plugin only observes Claude Code's events and draws pre-rendered frames above the prompt:
-no network, no processes, no file writes.
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/moods-dark.gif">
+  <img src="assets/moods-light.gif" alt="The eight moods: idle, typing, thinking, working, waiting, error, celebrating, sleeping" width="880">
+</picture>
+
+</div>
+
+| Claude Code event | Mood |
+| --- | --- |
+| you send a prompt | `thinking` |
+| Claude streams a reply, or edits a file | `typing` |
+| `Bash`, agents and long tools run | `working` |
+| a permission dialog needs you | `waiting` |
+| a tool fails | `error` |
+| a turn with tools finishes | `celebrating` |
+| nothing happens for a few minutes | `sleeping` |
+
+## Pick yours
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/colors-dark.gif">
+  <img src="assets/colors-light.gif" alt="Seven colours" width="880">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/bodies-dark.gif">
+  <img src="assets/bodies-light.gif" alt="Four bodies: classic, round, tall, blob" width="640">
+</picture>
+
+</div>
+
+Swap `fluffbot-clay-classic` for any of the 28 presets:
+
+| | classic | round | tall | blob |
+| --- | --- | --- | --- | --- |
+| **clay** | `fluffbot-clay-classic` | `fluffbot-clay-round` | `fluffbot-clay-tall` | `fluffbot-clay-blob` |
+| **sky** | `fluffbot-sky-classic` | `fluffbot-sky-round` | `fluffbot-sky-tall` | `fluffbot-sky-blob` |
+| **mint** | `fluffbot-mint-classic` | `fluffbot-mint-round` | `fluffbot-mint-tall` | `fluffbot-mint-blob` |
+| **lilac** | `fluffbot-lilac-classic` | `fluffbot-lilac-round` | `fluffbot-lilac-tall` | `fluffbot-lilac-blob` |
+| **rose** | `fluffbot-rose-classic` | `fluffbot-rose-round` | `fluffbot-rose-tall` | `fluffbot-rose-blob` |
+| **graphite** | `fluffbot-graphite-classic` | `fluffbot-graphite-round` | `fluffbot-graphite-tall` | `fluffbot-graphite-blob` |
+| **cream** | `fluffbot-cream-classic` | `fluffbot-cream-round` | `fluffbot-cream-tall` | `fluffbot-cream-blob` |
+
+Switching later? `/plugin uninstall <current one>`, then install the new one.
+
+## Cute outside, safe inside
+
+A plugin runs inside your coding agent, so this one is built to be the most boring code you install.
+
+- **Pinned downloads** — each preset is a zip on the [`packs-v0.1.0` release](https://github.com/johnydec/fluffbots/releases/tag/packs-v0.1.0), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
+- **Watches, never touches** — every hook passes the event on unchanged. It can’t block, rewrite or approve anything.
+- **No network, no processes, no file writes** — it only reads its own frames and draws a picture above the prompt.
+- **Tiny surface** — the only engine APIs it uses are `$.fs.read` (its own `frames.json`), `$.clock`, `$.ui` and `$.state`.
+
+Check a preset yourself:
+
+```sh
+curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.0/fluffbot-clay-classic.zip | shasum -a 256
+```
+
+## FAQ
+
+<details><summary><b>Which terminals does it work in?</b></summary><br>
+Any terminal with the Kitty graphics protocol: cmux, Ghostty, kitty, WezTerm. Elsewhere the spot above the prompt simply stays empty.
+</details>
+
+<details><summary><b>Does it slow Claude Code down?</b></summary><br>
+No. Frames are pre-rendered PNGs (176 px, 256 colours) that the terminal reads straight from disk at ~30 fps.
+</details>
+
+<details><summary><b>Why no “waiting” at work?</b></summary><br>
+Where an organization manages Claude Code, permission-dialog events only reach plugins the organization lists. Everything else still works.
+</details>
+
+<details><summary><b>How do I remove it?</b></summary><br>
+<code>/plugin uninstall fluffbot-clay-classic</code> (your preset’s name).
+</details>
+
+<br>
+
+<div align="center"><sub>Unofficial fan project — not affiliated with Anthropic.</sub></div>
