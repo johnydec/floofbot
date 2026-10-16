@@ -14,7 +14,7 @@ It thinks when Claude thinks, types when Claude writes, runs when tools run — 
 ### Install — one line, inside Claude Code
 
 ```
-/plugin install fluffbot-clay-classic --marketplace johnydec/fluffbots
+/plugin install fluffbot-clay-blob --marketplace johnydec/fluffbots
 ```
 
 Claude Code then asks where to install it — pick **Install for you (user scope)** and press Enter.<br>
