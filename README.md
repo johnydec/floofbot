@@ -17,7 +17,7 @@ It thinks when Claude thinks, types when Claude writes, runs when tools run — 
 /plugin install fluffbot-clay-classic --marketplace johnydec/fluffbots
 ```
 
-<sub>Live right away, no restart · ~8 MB · works in <b>cmux</b>, <b>Ghostty</b>, <b>kitty</b> and <b>WezTerm</b></sub>
+<sub>~9 MB · needs a terminal with Kitty graphics: <b>cmux</b>, <b>Ghostty</b>, <b>kitty</b> or <b>WezTerm</b> · built on Claude Code’s early-access plugin hooks, tested on 2.1.301</sub>
 
 </div>
 
@@ -72,21 +72,21 @@ Swap `fluffbot-clay-classic` for any of the 28 presets:
 | **graphite** | `fluffbot-graphite-classic` | `fluffbot-graphite-round` | `fluffbot-graphite-tall` | `fluffbot-graphite-blob` |
 | **cream** | `fluffbot-cream-classic` | `fluffbot-cream-round` | `fluffbot-cream-tall` | `fluffbot-cream-blob` |
 
-Switching later? `/plugin uninstall <current one>`, then install the new one.
+Switching later? Just install the new one: the newest preset draws, and the one you had steps back and tells you how to remove it (`/plugin uninstall <old one>`).
 
 ## Cute outside, safe inside
 
 A plugin runs inside your coding agent, so this one is built to be the most boring code you install.
 
-- **Pinned downloads** — each preset is a zip on the [`packs-v0.1.0` release](https://github.com/johnydec/fluffbots/releases/tag/packs-v0.1.0), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
+- **Pinned downloads** — each preset is a zip on the [`packs-v0.1.1` release](https://github.com/johnydec/fluffbots/releases/tag/packs-v0.1.1), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
 - **Watches, never touches** — every hook passes the event on unchanged. It can’t block, rewrite or approve anything.
-- **No network, no processes, no file writes** — it only reads its own frames and draws a picture above the prompt.
-- **Tiny surface** — the only engine APIs it uses are `$.fs.read` (its own `frames.json`), `$.clock`, `$.ui` and `$.state`.
+- **No network, no processes** — it reads its own frames and draws a picture above the prompt. Its one write is `fluffbots-peers.json` in your Claude Code config folder, a few lines that let two installed presets agree which one draws.
+- **Tiny surface** — the only engine APIs it uses are `$.fs.read` (its own `frames.json` and the peers file), `$.fs.write` (the peers file), `$.store` (when it was installed), `$.session.id`, `$.clock`, `$.ui` and `$.state`.
 
 Check a preset yourself:
 
 ```sh
-curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.0/fluffbot-clay-classic.zip | shasum -a 256
+curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.1/fluffbot-clay-classic.zip | shasum -a 256
 ```
 
 ## FAQ
