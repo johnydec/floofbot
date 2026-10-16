@@ -20,7 +20,7 @@ It thinks when Claude thinks, types when Claude writes, runs when tools run — 
 Claude Code then asks where to install it — pick **Install for you (user scope)** and press Enter.<br>
 <sub>(<i>Project scope</i> would add the bot to the repository for everyone who works on it.)</sub>
 
-<sub><a href="https://floofbot.vercel.app">floofbot.vercel.app</a> — pick a body and a colour, get your line</sub><br>
+<sub><a href="https://www.floofbot.site">floofbot.site</a> — pick a body and a colour, get your line</sub><br>
 <sub>~9 MB · needs a terminal with Kitty graphics: <b>cmux</b>, <b>Ghostty</b>, <b>kitty</b> or <b>WezTerm</b> · built on Claude Code’s early-access plugin hooks, tested on 2.1.301</sub>
 
 </div>
