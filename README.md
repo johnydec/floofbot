@@ -1,20 +1,20 @@
 <div align="center">
 
-# fluffbots
+# floofbot
 
 **A plush little companion that lives above your Claude Code prompt.**<br>
 It thinks when Claude thinks, types when Claude writes, runs when tools run — and cheers when the work is done.
 
 <br>
 
-<img src="assets/hero.gif" alt="A fluffbot reacting to a Claude Code session in cmux" width="820">
+<img src="assets/hero.gif" alt="A floofbot reacting to a Claude Code session in cmux" width="820">
 
 <br><br>
 
 ### Install — one line, inside Claude Code
 
 ```
-/plugin install fluffbot-clay-blob --marketplace johnydec/fluffbots
+/plugin install floofbot-clay-blob --marketplace johnydec/floofbot
 ```
 
 Claude Code then asks where to install it — pick **Install for you (user scope)** and press Enter.<br>
@@ -64,17 +64,17 @@ Claude Code then asks where to install it — pick **Install for you (user scope
 
 </div>
 
-Swap `fluffbot-clay-blob` for any of the 28 presets:
+Swap `floofbot-clay-blob` for any of the 28 presets:
 
 | | classic | round | tall | blob |
 | --- | --- | --- | --- | --- |
-| **clay** | `fluffbot-clay-classic` | `fluffbot-clay-round` | `fluffbot-clay-tall` | `fluffbot-clay-blob` |
-| **sky** | `fluffbot-sky-classic` | `fluffbot-sky-round` | `fluffbot-sky-tall` | `fluffbot-sky-blob` |
-| **mint** | `fluffbot-mint-classic` | `fluffbot-mint-round` | `fluffbot-mint-tall` | `fluffbot-mint-blob` |
-| **lilac** | `fluffbot-lilac-classic` | `fluffbot-lilac-round` | `fluffbot-lilac-tall` | `fluffbot-lilac-blob` |
-| **rose** | `fluffbot-rose-classic` | `fluffbot-rose-round` | `fluffbot-rose-tall` | `fluffbot-rose-blob` |
-| **graphite** | `fluffbot-graphite-classic` | `fluffbot-graphite-round` | `fluffbot-graphite-tall` | `fluffbot-graphite-blob` |
-| **cream** | `fluffbot-cream-classic` | `fluffbot-cream-round` | `fluffbot-cream-tall` | `fluffbot-cream-blob` |
+| **clay** | `floofbot-clay-classic` | `floofbot-clay-round` | `floofbot-clay-tall` | `floofbot-clay-blob` |
+| **sky** | `floofbot-sky-classic` | `floofbot-sky-round` | `floofbot-sky-tall` | `floofbot-sky-blob` |
+| **mint** | `floofbot-mint-classic` | `floofbot-mint-round` | `floofbot-mint-tall` | `floofbot-mint-blob` |
+| **lilac** | `floofbot-lilac-classic` | `floofbot-lilac-round` | `floofbot-lilac-tall` | `floofbot-lilac-blob` |
+| **rose** | `floofbot-rose-classic` | `floofbot-rose-round` | `floofbot-rose-tall` | `floofbot-rose-blob` |
+| **graphite** | `floofbot-graphite-classic` | `floofbot-graphite-round` | `floofbot-graphite-tall` | `floofbot-graphite-blob` |
+| **cream** | `floofbot-cream-classic` | `floofbot-cream-round` | `floofbot-cream-tall` | `floofbot-cream-blob` |
 
 Switching later? Just install the new one: the newest preset draws, and the one you had steps back and tells you how to remove it (`/plugin uninstall <old one>`).
 
@@ -82,7 +82,7 @@ Switching later? Just install the new one: the newest preset draws, and the one 
 
 A plugin runs inside your coding agent, so this one is built to be the most boring code you install.
 
-- **Pinned downloads** — each preset is a zip on the [`packs-v0.1.5` release](https://github.com/johnydec/fluffbots/releases/tag/packs-v0.1.5), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
+- **Pinned downloads** — each preset is a zip on the [`packs-v0.2.0` release](https://github.com/johnydec/floofbot/releases/tag/packs-v0.2.0), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
 - **Watches, never touches** — every hook passes the event on unchanged. It can’t block, rewrite or approve anything.
 - **No network, no processes** — it reads its own frames and draws a picture above the prompt. Its only write is one tiny file per preset in `~/.claude/fluffbots/`, touched when a session starts, when you send a prompt and when a turn ends — never on a timer — so two installed presets can agree which one draws.
 - **Tiny surface** — the only engine APIs it uses are `$.fs.read` / `$.fs.list` (its own frames and the presets’ files), `$.fs.write` (its own file), `$.env` (to find `~/.claude`), `$.store` (when it was installed), `$.session.id`, `$.clock`, `$.ui` and `$.state`.
@@ -90,7 +90,7 @@ A plugin runs inside your coding agent, so this one is built to be the most bori
 Check a preset yourself:
 
 ```sh
-curl -sL https://github.com/johnydec/fluffbots/releases/download/packs-v0.1.5/fluffbot-clay-blob.zip | shasum -a 256
+curl -sL https://github.com/johnydec/floofbot/releases/download/packs-v0.2.0/floofbot-clay-blob.zip | shasum -a 256
 ```
 
 ## FAQ
@@ -112,7 +112,7 @@ Where an organization manages Claude Code, permission-dialog events only reach p
 </details>
 
 <details><summary><b>How do I remove it?</b></summary><br>
-<code>/plugin uninstall fluffbot-clay-blob</code> (your preset’s name).
+<code>/plugin uninstall floofbot-clay-blob</code> (your preset’s name).
 </details>
 
 <br>
