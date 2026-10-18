@@ -21,7 +21,7 @@ Claude Code then asks where to install it — pick **Install for you (user scope
 <sub>(<i>Project scope</i> would add the bot to the repository for everyone who works on it.)</sub>
 
 <sub><a href="https://www.floofbot.site">floofbot.site</a> — pick a body and a colour, get your line</sub><br>
-<sub>~9 MB · needs a terminal with Kitty graphics: <b>cmux</b>, <b>Ghostty</b>, <b>kitty</b> or <b>WezTerm</b> · built on Claude Code’s early-access plugin hooks, tested on 2.1.301</sub>
+<sub>~9 MB · plush in <b>cmux</b>, <b>Ghostty</b>, <b>kitty</b> and <b>WezTerm</b>, pixel art in every other terminal · built on Claude Code’s early-access plugin hooks, tested on 2.1.302</sub>
 
 </div>
 
@@ -47,6 +47,16 @@ Claude Code then asks where to install it — pick **Install for you (user scope
 | a tool fails | `error` |
 | a turn with tools finishes | `celebrating` |
 | nothing happens for a few minutes | `sleeping` |
+
+## Any terminal: pixel mode
+
+Terminals that can’t draw pictures (Terminal.app, iTerm2, VS Code’s terminal, tmux…) get a hand-drawn pixel floofbot instead, in your preset’s colour and with all eight moods. Nothing to set up: the plugin picks the right one on its own.
+
+<div align="center">
+<img src="assets/pixel.gif" alt="The pixel floofbot's eight moods" width="760">
+</div>
+
+Prefer the pixels in Ghostty too, or the other way round? Start Claude Code with `FLOOFBOT_STYLE=pixel` (or `FLOOFBOT_STYLE=picture`).
 
 ## Pick yours
 
@@ -99,25 +109,25 @@ or, from your shell: `claude plugin update floofbot-clay-blob@floofbot` (your pr
 
 A plugin runs inside your coding agent, so this one is built to be the most boring code you install.
 
-- **Pinned downloads** — each preset is a zip on the [`packs-v0.2.0` release](https://github.com/johnydec/floofbot/releases/tag/packs-v0.2.0), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
+- **Pinned downloads** — each preset is a zip on the [`packs-v0.3.1` release](https://github.com/johnydec/floofbot/releases/tag/packs-v0.3.1), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
 - **Watches, never touches** — every hook passes the event on unchanged. It can’t block, rewrite or approve anything.
-- **No network, no processes** — it reads its own frames and draws a picture above the prompt. Its only write is one tiny file per preset in `~/.claude/fluffbots/`, touched when a session starts, when you send a prompt and when a turn ends — never on a timer — so two installed presets can agree which one draws.
-- **Tiny surface** — the only engine APIs it uses are `$.fs.read` / `$.fs.list` (its own frames and the presets’ files), `$.fs.write` (its own file), `$.env` (to find `~/.claude`), `$.store` (when it was installed), `$.session.id`, `$.clock`, `$.ui` and `$.state`.
+- **No network, no processes** — it reads its own frames and draws them above the prompt. Its only write is one tiny file per preset in `~/.claude/fluffbots/`, touched when a session starts, when you send a prompt and when a turn ends — never on a timer — so two installed presets can agree which one draws.
+- **Tiny surface** — the only engine APIs it uses are `$.fs.read` / `$.fs.list` (its own frames and the presets’ files), `$.fs.write` (its own file), `$.env` (to find `~/.claude`, and to tell whether your terminal can draw pictures), `$.store` (when it was installed), `$.session.id`, `$.clock`, `$.ui` and `$.state`.
 
 Check a preset yourself:
 
 ```sh
-curl -sL https://github.com/johnydec/floofbot/releases/download/packs-v0.2.0/floofbot-clay-blob.zip | shasum -a 256
+curl -sL https://github.com/johnydec/floofbot/releases/download/packs-v0.3.1/floofbot-clay-blob.zip | shasum -a 256
 ```
 
 ## FAQ
 
 <details><summary><b>Where does it work?</b></summary><br>
-In Claude Code in a terminal that can draw pictures (the Kitty graphics protocol): cmux, Ghostty, kitty and WezTerm. Terminal.app, iTerm2, VS Code’s built-in terminal, the Claude desktop app and the VS Code extension can’t show it — nothing breaks there, you just won’t see the bot.
+In Claude Code in any terminal. Where the terminal can draw pictures (the Kitty graphics protocol: cmux, Ghostty, kitty, WezTerm) you get the plush bot; everywhere else (Terminal.app, iTerm2, VS Code’s built-in terminal, tmux…) it draws itself in pixel art, with the same eight moods. The Claude desktop app and the VS Code extension’s chat panel don’t show it.
 </details>
 
 <details><summary><b>I installed it but don’t see the bot</b></summary><br>
-Check that your terminal is one of the four above, that Claude Code is up to date (<code>claude update</code> — the bot is built on its new plugin hooks, tested on 2.1.301), and that the window leaves 5 free rows above the prompt.
+Check that you’re in Claude Code in a terminal (not the desktop app), that Claude Code is up to date (<code>claude update</code> — the bot is built on its new plugin hooks, tested on 2.1.302), and that the window has room: 5 free rows above the prompt, and about 30 columns for the pixel bot.
 </details>
 
 <details><summary><b>Does it slow Claude Code down?</b></summary><br>
