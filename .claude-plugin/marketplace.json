@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "floofbot-clay-blob",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A clay blob floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -26,13 +26,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-clay-blob.zip",
-        "sha256": "22895b47edb869b5af9e5c499af44e9882c3a31983961e168d3cf5b3d19cc753"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-clay-blob.zip",
+        "sha256": "64b58c18e4627f43249007e6bbe9d57bc9d079f7a16506f0bb74cf1ae2a8fedc"
       }
     },
     {
       "name": "floofbot-clay-classic",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A clay classic floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -49,13 +49,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-clay-classic.zip",
-        "sha256": "0d21d5f9051a8e663ee9e5d4b5a1911bd92416bc6287138eb18a12381760eaf2"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-clay-classic.zip",
+        "sha256": "f221d118ed35b14cdecde1aee28ba297b2d42405355d0f89ebbf4ebba7dc45f9"
       }
     },
     {
       "name": "floofbot-clay-round",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A clay round floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -72,13 +72,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-clay-round.zip",
-        "sha256": "dcabb35ae2669771b4a4d63f98a67dc8ca59e3b060c569e4e9353d90a73c7542"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-clay-round.zip",
+        "sha256": "98b4a43fae9ad18bb46eaee156f1540fc81ba43864c59b56dfdd1b3c7d351472"
       }
     },
     {
       "name": "floofbot-clay-tall",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A clay tall floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -95,13 +95,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-clay-tall.zip",
-        "sha256": "74f78cbca1a951b95e70e04ca4cce5c0819b1635eb21517a5e14b22a02227e8e"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-clay-tall.zip",
+        "sha256": "77f6028ba815e46cf76afc7e320b7a8c1f8200cd200bb70336563acbe6f2f9ac"
       }
     },
     {
       "name": "floofbot-cream-blob",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A cream blob floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -118,13 +118,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-cream-blob.zip",
-        "sha256": "b245a30f2a1dc7bcd1e29602f0326a94b24a56c9064a709f9bfe94a40b8dace4"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-cream-blob.zip",
+        "sha256": "13916aa0567ad8b1de8291e2782443cfb949f5903136c92130adda524def6aa1"
       }
     },
     {
       "name": "floofbot-cream-classic",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A cream classic floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -141,13 +141,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-cream-classic.zip",
-        "sha256": "2ba085646594374abbdca94caac254823bba6989281be6fbc41ff22dd1857aea"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-cream-classic.zip",
+        "sha256": "d2332fb4ddf728753233e431f863ee41779262ad5b0b8b57e070773bbd69cfd6"
       }
     },
     {
       "name": "floofbot-cream-round",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A cream round floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -164,13 +164,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-cream-round.zip",
-        "sha256": "321dffd70d69948b90e628d363039990fb11a239c0795cda56eec9e242012002"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-cream-round.zip",
+        "sha256": "0304b6a66e5e47f2d9d4ff0f74374ce2583590817510d7c16ee19f824539da94"
       }
     },
     {
       "name": "floofbot-cream-tall",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A cream tall floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -187,13 +187,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-cream-tall.zip",
-        "sha256": "040656194c4f273575641a6a092890eafbe8b8cbfe733ce12b266d86ea4d2183"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-cream-tall.zip",
+        "sha256": "0cc4ba0f5cb390b76b1e36e6f84ab09434eb82c27ab6cd45356d004182771178"
       }
     },
     {
       "name": "floofbot-graphite-blob",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A graphite blob floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -210,13 +210,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-graphite-blob.zip",
-        "sha256": "cb49035d86d3545153bdb0a7b9f92044f8862bb90a31fbf39ee812bec0dee56c"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-graphite-blob.zip",
+        "sha256": "025f7e97a9487e58a91f5c441f8ab727498298fde3d5d523851475cd3467ab29"
       }
     },
     {
       "name": "floofbot-graphite-classic",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A graphite classic floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -233,13 +233,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-graphite-classic.zip",
-        "sha256": "eea64e1301d38981aa669349223dd7632c8fdec166abfc8e3f5a14c90886a14a"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-graphite-classic.zip",
+        "sha256": "d0f0cb0bf928644de4071c13b717cfdf188f131f9ebf0ce5054674399623add7"
       }
     },
     {
       "name": "floofbot-graphite-round",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A graphite round floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -256,13 +256,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-graphite-round.zip",
-        "sha256": "190f339186698a0357617d20be30a173355d96a2d3b5d22b0dc4fb4d7c2abbba"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-graphite-round.zip",
+        "sha256": "fb6af6a60a20505797ec1adc7378ea89f28a8d0af0057cefebf8e193693adb13"
       }
     },
     {
       "name": "floofbot-graphite-tall",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A graphite tall floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -279,13 +279,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-graphite-tall.zip",
-        "sha256": "e3f611b9242f75eeb09c52b5ce03e19f727a6a023947fc81acd23b4fd1a4bb53"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-graphite-tall.zip",
+        "sha256": "979fe15bb849c855f4af5c980ae81bf2eb7ac6849f8bdfc72260e35b2ae8554b"
       }
     },
     {
       "name": "floofbot-lilac-blob",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A lilac blob floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -302,13 +302,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-lilac-blob.zip",
-        "sha256": "536a043efb02bb017ff6ff292504620d0c83c5a6c46becd859571c93de05f8b0"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-lilac-blob.zip",
+        "sha256": "3608f3663996a360cb4f29768156c696dfc641939a05bb8879bbb7000e59596f"
       }
     },
     {
       "name": "floofbot-lilac-classic",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A lilac classic floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -325,13 +325,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-lilac-classic.zip",
-        "sha256": "3fc4dabd6e776a57d02494d8132111f8abfb68cb88e82a918aeead1664dfe02c"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-lilac-classic.zip",
+        "sha256": "1b0abf5d954c1daf06a6b206685271ca6ce5b74c8561ebdbcb034b50cdfc56b3"
       }
     },
     {
       "name": "floofbot-lilac-round",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A lilac round floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -348,13 +348,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-lilac-round.zip",
-        "sha256": "888dd5bea618fa9c4bcf0529d671de4243b6aaaf1801e238fd0f8a0f53f118a6"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-lilac-round.zip",
+        "sha256": "7924e5c6f657e9c2cc9571642599bfe1e247ff65514b60636f0d45544e13a402"
       }
     },
     {
       "name": "floofbot-lilac-tall",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A lilac tall floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -371,13 +371,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-lilac-tall.zip",
-        "sha256": "ac18b465a4f6dc185d17fdff429d52e50700aca1dfbbfc77603c01c75b97086a"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-lilac-tall.zip",
+        "sha256": "805a6c68b22e4ba816de691b1f169976cec4997d0b1714708d7a0aa826512c51"
       }
     },
     {
       "name": "floofbot-mint-blob",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A mint blob floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -394,13 +394,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-mint-blob.zip",
-        "sha256": "cb21cadafc4e45dcca1c1c9e73754d969a9aeeb8705747c1a62a572649b72b71"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-mint-blob.zip",
+        "sha256": "ade3e986da731b3548437454024e00c960f36ef113bcb2e945b323e7e0fb8c05"
       }
     },
     {
       "name": "floofbot-mint-classic",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A mint classic floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -417,13 +417,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-mint-classic.zip",
-        "sha256": "46ab64cc4a7cee77314cd92de386154df63c1b13ddd359ee888d3c1f8084210d"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-mint-classic.zip",
+        "sha256": "ff3e356069f4af573855ea84e1a1b3fe956dcc57bda587fe99c2108a1e079e10"
       }
     },
     {
       "name": "floofbot-mint-round",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A mint round floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -440,13 +440,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-mint-round.zip",
-        "sha256": "8cba86742c3fffeb4b56ede0279e22446cad0d25f42ac53d0ab86e4c8bd0e9af"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-mint-round.zip",
+        "sha256": "ae6574113f9a2f3163c26d7d0a422d9d2725f9038c7bdfada19d20d38015c2ac"
       }
     },
     {
       "name": "floofbot-mint-tall",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A mint tall floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -463,13 +463,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-mint-tall.zip",
-        "sha256": "a692b6cd0a16d5c90d267d00e239788e1dcb176e19f336b76e7c3053370eab32"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-mint-tall.zip",
+        "sha256": "2eef2b4a936faefc0eed9e43738255a8afeb16f8929483947dfd8c26ce74f15f"
       }
     },
     {
       "name": "floofbot-rose-blob",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A rose blob floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -486,13 +486,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-rose-blob.zip",
-        "sha256": "9e233ec03329729419776e9634ff800d7e5b5cf62ee9a8abe47ad4e519d49d27"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-rose-blob.zip",
+        "sha256": "1e4a581bc565e69c5cc5288d779b1bbcd9db8354c5e2929877a87ec3c6fb0787"
       }
     },
     {
       "name": "floofbot-rose-classic",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A rose classic floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -509,13 +509,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-rose-classic.zip",
-        "sha256": "e511609b652cc8ae986d30e1415b501ab5b8ab5450688a4cfb031c2591936831"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-rose-classic.zip",
+        "sha256": "a6ecc7001a68ba4017dee440910b8e4863ff50831be11f0febcfb0384e2251f2"
       }
     },
     {
       "name": "floofbot-rose-round",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A rose round floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -532,13 +532,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-rose-round.zip",
-        "sha256": "907126679aaed91a3918dee3367f0767cef23909f0faec5bf985093175670add"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-rose-round.zip",
+        "sha256": "d7e995a209fcc3c3104ca714800ddd0ba24124b705823c0730228fe2547fd6ee"
       }
     },
     {
       "name": "floofbot-rose-tall",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A rose tall floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -555,13 +555,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-rose-tall.zip",
-        "sha256": "e243383b9b5efeba70bed5c9382b919edfdaff38e68724571253dc30e75f2224"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-rose-tall.zip",
+        "sha256": "ef4d38250f7853f687f8b69fae14c5d7ce5f95e6055e3f439759f3422b07d37a"
       }
     },
     {
       "name": "floofbot-sky-blob",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A sky blob floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -578,13 +578,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-sky-blob.zip",
-        "sha256": "1c0ea50cafddfa777d139f0991fb7fd3610c1443050c6151c479c0c29ad66184"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-sky-blob.zip",
+        "sha256": "0f67f8fd1b482a36eea3bbd36288e5806db4ec514608c7c75ebc19f906ced729"
       }
     },
     {
       "name": "floofbot-sky-classic",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A sky classic floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -601,13 +601,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-sky-classic.zip",
-        "sha256": "a3b19f10071df8e6298933917647fdabd6339db2b3068b038ce325f5a8d0e6be"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-sky-classic.zip",
+        "sha256": "462ec53d66d3b560fa0d9aa9164927216ad63dcc034b6fe9781897a014e1c101"
       }
     },
     {
       "name": "floofbot-sky-round",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A sky round floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -624,13 +624,13 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-sky-round.zip",
-        "sha256": "278673c43d8f3ccdc75f851a80d207909efd89840beddcb11276db5431ff8097"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-sky-round.zip",
+        "sha256": "0035a6fad15673058deac9b35c7a803d542e2da7bdaec64fcd0ffdbed3fc87a8"
       }
     },
     {
       "name": "floofbot-sky-tall",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "A sky tall floofbot above your prompt that acts out what Claude is doing.",
       "author": {
         "name": "johnydec"
@@ -647,8 +647,8 @@
       ],
       "source": {
         "source": "archive",
-        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.4.1/floofbot-sky-tall.zip",
-        "sha256": "41a9be0e15d18914d613b40d754f673230a998d1b60db88d9cce5fca3fe201db"
+        "url": "https://github.com/johnydec/floofbot/releases/download/packs-v0.5.0/floofbot-sky-tall.zip",
+        "sha256": "332dd4165b28fae1ff12f59496a99e5711c9dfdd2be14f4d7ae0c393bf1ddf1b"
       }
     }
   ]
