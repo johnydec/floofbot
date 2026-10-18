@@ -27,13 +27,13 @@ Claude Code then asks where to install it — pick **Install for you (user scope
 
 <br>
 
-## Eight moods, driven by what Claude is doing
+## Nine moods, driven by what Claude is doing
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/moods-dark.gif">
-  <img src="assets/moods-light.gif" alt="The eight moods: idle, typing, thinking, working, waiting, error, celebrating, sleeping" width="880">
+  <img src="assets/moods-light.gif" alt="The nine moods: idle, typing, thinking, reading, working, waiting, error, celebrating, sleeping" width="660">
 </picture>
 
 </div>
@@ -42,6 +42,7 @@ Claude Code then asks where to install it — pick **Install for you (user scope
 | --- | --- |
 | you send a prompt | `thinking` |
 | Claude streams a reply, or edits a file | `typing` |
+| Claude reads files or looks something up (`Read`, `Grep`, `Glob`, web) | `reading` (glasses on) |
 | `Bash`, agents and long tools run | `working` |
 | a permission dialog needs you | `waiting` |
 | a tool fails | `error` |
@@ -50,10 +51,10 @@ Claude Code then asks where to install it — pick **Install for you (user scope
 
 ## Any terminal: pixel mode
 
-Terminals that can’t draw pictures (Terminal.app, iTerm2, VS Code’s terminal, tmux…) get a pixel floofbot instead: the same orange one for every preset, with all eight moods. Nothing to set up: the plugin picks the right one on its own.
+Terminals that can’t draw pictures (Terminal.app, iTerm2, VS Code’s terminal, tmux…) get a pixel floofbot instead: the same orange one for every preset, with all nine moods. Nothing to set up: the plugin picks the right one on its own.
 
 <div align="center">
-<img src="assets/pixel.gif" alt="The pixel floofbot's eight moods" width="760">
+<img src="assets/pixel.gif" alt="The pixel floofbot's nine moods" width="760">
 </div>
 
 Prefer the pixels in Ghostty too, or the other way round? Start Claude Code with `FLOOFBOT_STYLE=pixel` (or `FLOOFBOT_STYLE=picture`).
@@ -113,7 +114,7 @@ or, from your shell: `claude plugin update floofbot-clay-blob@floofbot` (your pr
 
 A plugin runs inside your coding agent, so this one is built to be the most boring code you install.
 
-- **Pinned downloads** — each preset is a zip on the [`packs-v0.5.1` release](https://github.com/johnydec/floofbot/releases/tag/packs-v0.5.1), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
+- **Pinned downloads** — each preset is a zip on the [`packs-v0.6.0` release](https://github.com/johnydec/floofbot/releases/tag/packs-v0.6.0), pinned by SHA-256 in [`marketplace.json`](.claude-plugin/marketplace.json). Claude Code verifies it on every download and refuses a mismatch.
 - **Watches, never touches** — every hook passes the event on unchanged. It can’t block, rewrite or approve anything.
 - **No network, no processes** — it reads its own frames and draws them above the prompt. Its only write is one tiny file per preset in `~/.claude/fluffbots/`, touched when a session starts, when you send a prompt and when a turn ends — never on a timer — so two installed presets can agree which one draws.
 - **Tiny surface** — the only engine APIs it uses are `$.fs.read` / `$.fs.list` (its own frames and the presets’ files), `$.fs.write` (its own file), `$.env` (to find `~/.claude`, and to tell whether your terminal can draw pictures), `$.store` (when it was installed), `$.session.id`, `$.clock`, `$.ui` and `$.state`.
@@ -121,7 +122,7 @@ A plugin runs inside your coding agent, so this one is built to be the most bori
 Check a preset yourself:
 
 ```sh
-curl -sL https://github.com/johnydec/floofbot/releases/download/packs-v0.5.1/floofbot-clay-blob.zip | shasum -a 256
+curl -sL https://github.com/johnydec/floofbot/releases/download/packs-v0.6.0/floofbot-clay-blob.zip | shasum -a 256
 ```
 
 ## FAQ
